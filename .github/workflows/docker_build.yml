@@ -1,0 +1,7 @@
+name: Build image
+on:
+  push:
+    branches:
+      - 'main'
+  jobs:
+    run-on: ubuntu-20.04
